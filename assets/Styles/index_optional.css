@@ -1,0 +1,55 @@
+
+  .second-header-list{
+    background-color:#d45079; 
+  }
+
+  .left-top-div{
+  background-color: #d7fffd;
+  margin-top: 0px;
+  padding:20px;
+  border-radius:10px ;
+  }
+  .deal-div{
+    
+    
+  }
+  .news-div{
+      background-color: #f6d186;
+      border-radius:10px ;
+      padding-left: 0px;
+  }
+  .right-main-div{
+      
+
+  }
+  .deal-div{
+    
+
+  }
+  .cate{
+      font-size:18px;
+      border-radius: 5px;
+      color:white;
+      background-color:#512b58;
+      padding: 1px;
+    
+  }
+ .categories{
+    color: #7f78d2;
+    padding: 3px;
+  }
+  .title-list{
+      font-style: italic;
+      color: #6e5773;
+  }
+  .deal{
+    width: 100%;
+    height:100%
+  }
+  body{
+    background-color: #fcf8f3;
+
+  }
+  .foot{
+      ;
+  }
