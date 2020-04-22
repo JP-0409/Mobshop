@@ -13,23 +13,20 @@
 <body>
      <form>
           <h1>Sign Up</h1>
-          <div>
-               <label for="fname"><b>First Name :</b></label>
-               <br>
-               <input type="text" placeholder="Enter first name" name="fname" required><br>
-               <label for="mname"><b>Middle Name :</b></label><br>
-               <input type="text" placeholder="Enter middle name" name="mname" required><br>
-               <label for="lname"><b>Last Name :</b></label><br>
-               <input type="text" placeholder="Enter last name" name="lname" required><br>
-               <label for="email"><b>Email</b></label><br>
-               <input type="text" placeholder="Enter Email" name="email" required>
-               <br>
-               <label for="psw"><b>password</b></label><br>
+          <div><form action="http:localhost/mobshop/userlogin.php" method="post">
+               <label for="fname"><b>Full Name :</b></label><br>
+               <input type="text" placeholder="Enter full name" name="fullname" required><br>
+               <label for="email"><b>Email-Address</b></label><br>
+               <input type="text" placeholder="Enter e-mail" name="email" required><br>
+               <label for="fname"><b>Mobile :</b></label><br>
+               <input type="text" placeholder="Enter Mobile No" name="mobile" required><br>
+               <label for="psw"><b>Password</b></label><br>
                <input type="password" placeholder="Enter password" name="pass" required><br>
-               <label for="psw"><b>Re-password</b></label><br>
-               <input type="password" placeholder="Re-enter password" name="pass" required>
+               <label for="psw"><b>Confirm-password</b></label><br>
+               <input type="password" placeholder="Re-enter password" name="confirmpass" required>
 
-               <button type="submit">submit</button>
+               <button type="submit" name="submit">submit</button>
+               </form>
           </div>
      </form>
 </body>
