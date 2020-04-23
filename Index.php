@@ -55,15 +55,15 @@
                <!-- slide show -->
                <div class="slideshow-container">
                     <div class="mySlides1">
-                         <img src="./Picture/oppo.png" style="width:100%">
+                         <img src="Picture/oppo.png" style="width:100%">
                     </div>
 
                     <div class="mySlides1">
-                         <img src="./Picture/redmi.png" style="width:100%">
+                         <img src="Picture/redmi.png" style="width:100%">
                     </div>
 
                     <div class="mySlides1">
-                         <img src="./Picture/vivo.png" style="width:100%">
+                         <img src="Picture/vivo.png" style="width:100%">
                     </div>
 
                     <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
@@ -78,7 +78,7 @@
                               <div class="flip-card">
                                    <div class="flip-card-inner">
                                         <div class="flip-card-front">
-                                             <img src="./Picture/apple.jpg" alt="Avatar" style="width:100%;height:100%;">
+                                             <img src="Picture/apple.jpg" alt="Avatar" style="width:100%;height:100%;">
                                         </div>
                                         <div class="flip-card-back">
                                              <h3>APPLE SE 2</h3>
@@ -101,7 +101,7 @@
                               <div class="flip-card">
                                    <div class="flip-card-inner">
                                         <div class="flip-card-front">
-                                             <img src="./Picture/oneplus.jpg" alt="Avatar" style="width: 100%; height: 100%;">
+                                             <img src="Picture/oneplus.jpg" alt="Avatar" style="width: 100%; height: 100%;">
                                         </div>
                                         <div class="flip-card-back">
                                              <h3>ONE PLUS 8</h3>
@@ -123,7 +123,7 @@
                               <div class="flip-card">
                                    <div class="flip-card-inner">
                                         <div class="flip-card-front">
-                                             <img src="./Picture/honor30.jpg" alt="Avatar" style="width: 100%; height: 100%;">
+                                             <img src="Picture/honor30.jpg" alt="Avatar" style="width: 100%; height: 100%;">
                                         </div>
                                         <div class="flip-card-back">
                                              <h1>HONOR 30</h1>
@@ -146,7 +146,7 @@
                               <div class="flip-card">
                                    <div class="flip-card-inner">
                                         <div class="flip-card-front">
-                                             <img src="./Picture/redminote9.jpg" alt="Avatar" style="width: 100%; height: 100%;">
+                                             <img src="Picture/redminote9.jpg" alt="Avatar" style="width: 100%; height: 100%;">
                                         </div>
                                         <div class="flip-card-back">
                                              <h1>REDMI NOTE 9</h1>
