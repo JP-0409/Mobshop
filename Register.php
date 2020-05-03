@@ -39,14 +39,21 @@ session_start();
 
 </html>
 <?php
-include 'config/connection.php';
 if ($_POST) {
+  include 'config/connection.php';
 
   $username =  mysqli_real_escape_string($con, $_POST['fullname']);
   $mail = mysqli_real_escape_string($con, $_POST['email']);
   $mobnumber = mysqli_real_escape_string($con, $_POST['mobile']);
   $pass = mysqli_real_escape_string($con, $_POST['pass']);
   $repass = mysqli_real_escape_string($con, $_POST['conpass']);
+
+  if ($pass == $repass) {
+    $insertquery = "CALL UserGet()";
+    $query1 = $mysqli->query($query);
+    mysqli_query($z, $insertquery);
+  } else {
+  }
 
   $pas = password_hash($pass, PASSWORD_BCRYPT);
   $cpas = password_hash($repass, PASSWORD_BCRYPT);

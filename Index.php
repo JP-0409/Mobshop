@@ -25,7 +25,7 @@
                <li><a href="#tablet">Other</a></li>
                <li><a href="#contactUs">Contact Us</a></li>
                <li style="float: right;"><a href="./html/Login.html">Log in</a></li>
-               <li style="float: right;"><a href="./html/signup.html">Sign up</a></li>
+               <li style="float: right;"><a href="Register.php">Sign up</a></li>
 
 
 
