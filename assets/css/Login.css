@@ -8,6 +8,10 @@ h2{
   font-weight: bold;
 }
 #login_form{
+  background-image : url('../Picture/4.jpg');
+ 
+  backface-visibility: 0.5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: block;
   background-color: aquamarine;
   box-sizing : border-box;
@@ -15,7 +19,8 @@ h2{
   margin : auto;
   margin-top : 80px;
   justify-content: center;
-
+  border : 1px solid black;
+  border-radius: 10px;
 
 }
 #login_form form{
