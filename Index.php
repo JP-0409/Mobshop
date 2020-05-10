@@ -68,36 +68,12 @@
 
 <body>
 
-<?php require_once("php/header.php"); ?>
+     <?php require_once("php/header.php"); ?>
 
      </div>
-
-     <!-- Navigation bar for main page -->
-
-     <!-- <div id="navbar">
-          <ul>
-               <li><a href="./Index.html">Home</a></li>
-               <li><a href="#smartphone">Smartphones</a></li>
-               <li><a href="#compare">Compare</a></li>
-               <li><a href="#tablet">Other</a></li>
-               <li><a href="#contactUs">Contact Us</a></li>
-               <li style="float: right;"><a href="./html/Login.html">Log in</a></li>
-               <li style="float: right;"><a href="Register.php">Sign up</a></li>
-          </ul> -->
-
      </div>
      <!-- Main Content -->
      <div class="Main">
-
-          <!-- Search Bar -->
-          <!-- <div id="search_bar">
-               <form action="">
-                    <input type="text" placeholder="Search" name="search" required>
-                    <button type="submit">
-                         Search
-                    </button>
-               </form>
-          </div> -->
 
           <!-- Automatic Image Slider -->
           <div class="img-slider">
@@ -111,19 +87,22 @@
                     <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
                </div>
           </div>
-
+          <div class="card-head">
+          <h1>TODAYS DEAL</h1>
+          </div>
           <!-- this data comes from database-->
           <?php require_once("php/header.php"); ?>
-     <div class="container">
-          <div class="row text-center py-5">
-               <?php
-               $result = $database->getData();
-               while ($row = mysqli_fetch_assoc($result)) {
-                    component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
-               }
-               ?>
+          <div class="container">
+               <div class="row text-center py-5">
+                    <?php
+                    $result = $database->getData();
+                    while ($row = mysqli_fetch_assoc($result)) {
+                         component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
+                    }
+                    ?>
+               </div>
+               <h1>add timer using java script for all and add border and style that upper div.</h1>
           </div>
-     </div>
 
 
           <!-- Responsive Cards -->
@@ -144,7 +123,7 @@
                                         <p>After a long wait, the Apple iPhone SE 2020 has been announced.
                                              It features an Apple A13 Bionic chipset used by the iPhone 11 series,
                                              a 4.7-inch HD Retina display with Touch ID fingerprint sensor and
-                                             Haptic Touch.
+                                             Haptic Touch.<a href="https://www.91mobiles.com/upcoming-mobiles-in-india">read more@</a>
                                         </p>
                                    </div>
                               </div>
@@ -167,7 +146,9 @@
                                         <p>ONE PLUS-8 is the standard variant of the latest flagship smartphone
                                              featuring a 6.55-inch Fluid AMOLED FHD+ display,
                                              90Hz refresh rate, HDR10+, an octa-core Snapdragon 865 SoC, Dolby
-                                             Atmos support and Warp Charge 30T fast charging support.</p>
+                                             Atmos support and Warp Charge 30T fast charging support.
+                                             <a href="https://www.91mobiles.com/upcoming-mobiles-in-india">read more@</a>
+                                        </p>
                                    </div>
                               </div>
                          </div>
@@ -190,7 +171,9 @@
                                              punch-hole display, a Kirin 985 SoC,
                                              8GB RAM, 256GB of storage space, and an OLED panel.
                                              The Honor 30 comes with a single selfie camera sensor while the other
-                                             two models have dual selfie camera modules.</p>
+                                             two models have dual selfie camera modules.
+                                             <a href="https://www.91mobiles.com/upcoming-mobiles-in-india">read more@</a>
+                                        </p>
                                    </div>
                               </div>
                          </div>
@@ -213,7 +196,9 @@
                                              Note 9 Pro.
                                              However the device did not go on sale in India due to the coronavirus
                                              lockdown until
-                                             May, 3, 2020.</p>
+                                             May, 3, 2020.
+                                             <a href="https://www.91mobiles.com/upcoming-mobiles-in-india">read more@</a>
+                                        </p>
                                    </div>
                               </div>
                          </div>
@@ -224,7 +209,7 @@
                </div>
           </div>
 
-          
+
 
 
           <!-- Website Footer  start from here-->
@@ -271,7 +256,7 @@
                </div>
           </div>
      </div>
-    
+
      <script type="text/javascript" src="./assets/js/Index.js"></script>
      <!-- jQuery library -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
